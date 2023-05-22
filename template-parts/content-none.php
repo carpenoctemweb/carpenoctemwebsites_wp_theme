@@ -41,9 +41,7 @@
 		else :
 			?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'carpenoctemwebsites_wp_theme' ); ?></p>
-			<?php
-			get_search_form();
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for.', 'carpenoctemwebsites_wp_theme' ); ?></p>
 
 		endif;
 		?>
